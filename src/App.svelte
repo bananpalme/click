@@ -29,7 +29,8 @@
 		display: grid;
 		grid-template-rows: repeat(auto-fill, minmax(20rem, 5fr));
 		place-items: center;
-	}
+    
+  }
 	
 	#but{
 		border: 0.2rem solid #fff;
@@ -69,6 +70,7 @@
 
 	h2{
 		text-align: center;
+    color: black;
 	}
 
 	img{
