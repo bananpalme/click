@@ -4,7 +4,7 @@
 
 <main>
 	<h1>Click the button</h1>
-	<Modal basic big={true}>
+	<Modal basic big={true} class="bg-indigo-400">
 		<Content>
 			<h2>You just got lotaded</h2>
 			<img src="https://media.tenor.com/Za9YlWVtBa8AAAAd/pokemon-lotad.gif" alt="">
@@ -14,10 +14,11 @@
 			<div id="but"><h1>button</h1></div>
 		</Trigger>
 	</Modal>
-	
 </main>
 
 <style>
+	
+
 	main {
 		position: absolute;
 		left: 0;
@@ -29,8 +30,7 @@
 		display: grid;
 		grid-template-rows: repeat(auto-fill, minmax(20rem, 5fr));
 		place-items: center;
-    
-  }
+  	}
 	
 	#but{
 		border: 0.2rem solid #fff;
@@ -42,7 +42,7 @@
               		0 0 0.4rem #0fa,
               		0 0 1.4rem #0fa,
               		inset 0 0 .8rem #0fa;
-		background-color: #00f0a062;
+		background-color: #00f0a03a;
 	}
 
 	#but h1{
@@ -70,11 +70,14 @@
 
 	h2{
 		text-align: center;
-    color: black;
+    	color: black;
+    	font-size: 3.5rem;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	}
 
 	img{
-		text-align: center;
+		position: relative;
+    	left: 28%;
 	}
 	
 	@keyframes pulsate {
