@@ -17,7 +17,7 @@
 </main>
 
 <style>
-	
+	@import url('https://fonts.cdnfonts.com/css/impact');
 
 	main {
 		position: absolute;
